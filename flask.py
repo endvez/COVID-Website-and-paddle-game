@@ -22,7 +22,7 @@ def get_result():
 
 def paddle():
 
-  return render_template("game.html")
+  return render_template("paddlegame.html")
 @app.route('/image')
 
 def get_image():
