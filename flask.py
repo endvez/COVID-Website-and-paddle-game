@@ -6,11 +6,11 @@ app = Flask(__name__)
 
 @app.route('/')
 
-def hello_world():
+def website_access():
 
-  #return 'Hello, world!'
+  
 
-  return render_template("hello.html")
+  return render_template("covidwebsite.html")
 @app.route('/result') #scrapper
 
 def get_result():
